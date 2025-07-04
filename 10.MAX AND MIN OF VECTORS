@@ -1,0 +1,7 @@
+vec <- c(10, 25, 8, 97, 54, 12)
+cat("Max:", max(vec), "\n")
+cat("Min:", min(vec), "\n")
+
+#output
+Max: 97 
+Min: 8
