@@ -1,0 +1,13 @@
+# Direct input values
+name <- "Alice"
+age <- 25
+cat("Name:", name, "\nAge:", age, "\n")
+print(R.version.string)
+
+
+# Output Example:
+Enter name: Alice
+Enter age: 25
+Name: Alice 
+Age: 25 
+[1] "R version 4.4.0 (2024-04-24)"
