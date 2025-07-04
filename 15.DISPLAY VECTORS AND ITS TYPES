@@ -1,0 +1,17 @@
+v1 <- c(1, 2, 3)
+v2 <- c("A", "B", "C")
+v3 <- c(TRUE, FALSE, TRUE)
+
+print(v1); print(typeof(v1))
+print(v2); print(typeof(v2))
+print(v3); print(typeof(v3))
+
+#output
+[1] 1 2 3
+[1] "double"
+
+[1] "A" "B" "C"
+[1] "character"
+
+[1]  TRUE FALSE  TRUE
+[1] "logical"
