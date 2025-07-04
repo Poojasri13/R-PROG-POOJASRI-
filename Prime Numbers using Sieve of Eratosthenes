@@ -1,0 +1,12 @@
+n <- 50
+sieve <- rep(TRUE, n)
+sieve[1] <- FALSE
+for (i in 2:sqrt(n)) {
+  if (sieve[i]) sieve[seq(i^2, n, i)] <- FALSE
+}
+primes <- which(sieve)
+print(primes)
+
+
+#output
+[1] 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
