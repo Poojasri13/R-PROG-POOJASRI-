@@ -1,0 +1,7 @@
+a <- 10
+b <- "hello"
+c <- c(1,2,3)
+print(ls())
+
+#output
+[1] "a" "b" "c"
