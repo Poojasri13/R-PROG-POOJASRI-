@@ -1,0 +1,8 @@
+str <- "success"
+cat("Unique chars:", unique(strsplit(str, "")[[1]]), "\n")
+vec <- c(1, 2, 2, 3, 3, 3)
+cat("Unique nums:", unique(vec), "\n")
+
+#output
+Unique chars: s u c e 
+Unique nums: 1 2 3 
