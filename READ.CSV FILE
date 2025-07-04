@@ -1,0 +1,7 @@
+data <- read.csv("sample.csv")
+print(data)
+
+#output
+   Name Age
+1 Alice  23
+2   Bob  30
