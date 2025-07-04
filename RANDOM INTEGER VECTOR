@@ -1,0 +1,6 @@
+set.seed(123)
+random_vec <- sample(-50:50, 10)
+print(random_vec)
+
+#output
+[1] -30  -6  44  38  23 -22  13  28  20 -35
